@@ -5,9 +5,8 @@ a premium Holiday Day Trip Excursion across the beautiful West-Coast line of Ist
 This repository demonstrates how to integrate vital security controls into basic frontend and backend
 infrastructure to defend a customer-facing portal against common OWASP vulnerabilities.
 
-# Tech StackFrontend: 
-## HTML5
-## CSS3
+# Tech Stack
+## Frontend: HTML5, CSS3
 ## Backend: PHP
 ## Database: MySQL
 
@@ -49,7 +48,7 @@ phpdefine('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'your_username');
 define('DB_PASSWORD', 'your_password');
 define('DB_NAME', 'your_database_name');
-# Boot Up:
+## Boot Up:
 Start Apache and MySQL through your environment dashboard.
 Access the application locally by navigating to
 http://localhost/YOUR_PROJECT_DIRECTORY/index.html.
