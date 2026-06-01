@@ -37,5 +37,20 @@ session-clearing Logout zones.
 Strict client-side and server-side validation bounds to ensure clean, structured data captures.
 
 # Local Installation Steps:
-## git clone https://github.com
+## Clone the Repository:
+   git clone https://github.com/tony-lam-nun/secure-web-development
+## Environment Configuration:
+Move the project files to your local web server root directory (e.g., htdocs in XAMPP or www in WampServer).
+Import the provided SQL schema file into your local MySQL instance via phpMyAdmin.
+## Database Hook Setup:
+Adjust your database connection credentials inside your configuration file 
+(typically config.php or db.php)
+phpdefine('DB_SERVER', 'localhost');
+define('DB_USERNAME', 'your_username');
+define('DB_PASSWORD', 'your_password');
+define('DB_NAME', 'your_database_name');
+# Boot Up:
+Start Apache and MySQL through your environment dashboard.
+Access the application locally by navigating to
+http://localhost/YOUR_PROJECT_DIRECTORY/index.html.
 
