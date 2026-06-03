@@ -43,7 +43,7 @@ Move the project files to your local web server root directory (e.g., htdocs in 
 Import the provided SQL schema file into your local MySQL instance via phpMyAdmin.
 ## Database Hook Setup: 
 (functions.php or dbconn.php)
-phpdefine('DB_SERVER', 'localhost');
+define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'unn_w22042968');
 define('DB_PASSWORD', 'Shogun1304@');
 define('DB_NAME', 'unn_w22042968');
