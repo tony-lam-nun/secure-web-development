@@ -41,15 +41,14 @@ Strict client-side and server-side validation bounds to ensure clean, structured
 ## Environment Configuration:
 Move the project files to your local web server root directory (e.g., htdocs in XAMPP or www in WampServer).
 Import the provided SQL schema file into your local MySQL instance via phpMyAdmin.
-## Database Hook Setup:
-Adjust your database connection credentials inside your configuration file 
-(typically config.php or db.php)
+## Database Hook Setup: 
+(functions.php or dbconn.php)
 phpdefine('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'your_username');
-define('DB_PASSWORD', 'your_password');
-define('DB_NAME', 'your_database_name');
+define('DB_USERNAME', 'unn_w22042968');
+define('DB_PASSWORD', 'Shogun1304@');
+define('DB_NAME', 'unn_w22042968');
 ## Boot Up:
 Start Apache and MySQL through your environment dashboard.
 Access the application locally by navigating to
-http://localhost/YOUR_PROJECT_DIRECTORY/index.html.
+http://localhost/LOCALHOST/content/index.html.
 
