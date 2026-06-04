@@ -51,4 +51,7 @@ define('DB_NAME', 'unn_w22042968');
 Start Apache and MySQL through your environment dashboard.
 Access the application locally by navigating to
 http://localhost/LOCALHOST/content/index.html.
+Copy the files setSession, readSession, and folder sessionData into the root directory with LOCALHOST. 
+This is required to start sessions as being part of the web secure login procedure.
+secure login, e.i., along side the directory with
 
